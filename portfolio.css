@@ -1,0 +1,178 @@
+html, body {
+  min-width: 260px;
+  color: black;
+  background-color: tan;
+  font-family: 'Open Sans', Arial;
+  line-height: 1.2; 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 260px;
+  width: 30%;
+  max-width: 300px;
+  height: 50%;
+  border-right: solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+#navgrid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 98%
+}
+
+main {
+  position: relative;
+  margin-left: 33%;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.navbox {
+  align-items: center;
+  width: 80%;
+  border: solid blue;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+.navbox > img {
+  width: 100%;
+}
+
+.introboxes {
+  align-items: center;
+  border-radius: 0px;
+  width: 95%;
+  margin: auto;
+}
+
+#intro {
+  align-items: center;
+}
+
+#introtext {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-size: 1.6em;
+  border: solid orange;
+  padding: 5px;
+}
+
+#introtext > h3 {
+  margin: 0;
+  font-size: 1.4em;
+}
+
+#aboutbox {
+  border-bottom: solid red;
+}
+
+#abouttext {
+  font-size: 1em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#profile {
+  justify-items: center;
+  text-align: center;
+}
+
+
+
+#profile > h1 {
+  margin-top: 2%;
+  margin-bottom: 0.5%;
+  font-size: 2em;
+}
+
+#profilegrid {
+  justify-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profilebox {
+  background-color: #D2B48C;
+  max-width: 400px;
+  margin: 10px;
+  width: 80%;
+  height: 80%;
+  border: solid #FAF1DD;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px;
+}
+
+.profilebox > h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: Georgia;
+  height: 10%;
+}
+
+.profilebox > ul {
+  padding-left: 25px;
+  margin-top: 5%;
+  height: 90%;
+  font-size: 1em;
+  line-height: 1.5;
+  list-style-type: none;
+  font-weight: bold;
+  padding: 0;
+  border-top: solid white;
+}
+
+.profilebox > ul > li:nth-child(odd) {
+  background-color: #EBCCAB;
+}
+
+.profilebox > h3 {
+  height: 15%;
+  margin: 0;
+  padding: 0;
+  font-size: 1.7em;
+}
+
+#langgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80%;
+  margin-top: 4%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.langbox {
+  border-top: solid white;
+}
+
+.langboxleft {
+  border-right: solid white;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
