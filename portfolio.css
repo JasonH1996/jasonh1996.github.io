@@ -27,7 +27,7 @@ nav {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 98%
+  width: 98%;
 }
 
 main {
@@ -153,7 +153,7 @@ main {
 #langgrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 80%;
+  height: 75%;
   margin-top: 4%;
   margin-bottom: 0%;
   padding-bottom: 0%;
@@ -167,6 +167,26 @@ main {
 
 .langboxleft {
   border-right: solid white;
+}
+
+#projectgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 4%;
+  margin-bottom:0%;
+  padding-bottom: 0%;
+  font-size: 1em;
+}
+
+.projectbox {
+  background-color: #D2B48C;
+  border: solid #FAF1DD;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px;
+}
+
+.projectbox > img {
+  height: auto;
 }
 
 a:link { text-decoration: none; }
