@@ -1,28 +1,55 @@
 html, body {
   min-width: 260px;
   color: black;
-  background-color: tan;
+  background-color: #5680e9;
   font-family: 'Open Sans', Arial;
-  line-height: 1.2; 
+  line-height: 1.1; 
     top:0;
     bottom:0;
     left:0;
     right:0;
 }
+a:hover,a:visited { color:#000; }
 
 nav {
   position: fixed;
   top: 0px;
   left: 0px;
   min-width: 260px;
-  width: 30%;
-  max-width:400px;
-  border-right: solid blue;
+  width: 20%;
+  background-color:#e85a4f;
   display: flex;
   flex-direction: column;
 }
 
+#navdiv{
+  position: fixed;
+  background-color: #e85a4f;
+  width: 20%;
+  min-width: 260px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+#intro {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+#aboutbox{
+  font-size: 1.3em;
+}
+
+#aboutbox > h3 {
+  text-align: center;
+  margin-top: 1%;
+}
+
+
 #navgrid {
+  margin-top: 1%;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -31,16 +58,13 @@ nav {
 
 main {
   position: relative;
-  margin-left: 33%;
+  margin-left: 22%;
   margin-bottom: 100px;
   text-align: left;
 }
 
 .navbox {
-  align-items: center;
-  height: 100%;
   width: 80%;
-  border: solid blue;
   border-radius: 10px;
   margin: auto;
   margin-top: 5px;
@@ -69,17 +93,12 @@ main {
   font-weight: bold;
   padding-bottom: 10px;
   font-size: 1.6em;
-  border: solid orange;
   padding: 5px;
 }
 
 #introtext > h3 {
   margin: 0;
   font-size: 1.4em;
-}
-
-#aboutbox {
-  border-bottom: solid red;
 }
 
 #abouttext {
@@ -89,8 +108,11 @@ main {
 }
 
 #profile {
+  margin: 0px;
+  padding: 0px;
   justify-items: center;
   text-align: center;
+  height: 30%;
 }
 
 
@@ -102,6 +124,7 @@ main {
 }
 
 #profilegrid {
+  margin-top: 1%;
   justify-items: center;
   text-align: center;
   display: grid;
@@ -109,14 +132,11 @@ main {
 }
 
 .profilebox {
-  background-color: #D2B48C;
-  max-width: 400px;
+  background-color: #e98074;
   margin: 10px;
-  width: 80%;
+  width: 60%;
   height: 80%;
-  border: solid #FAF1DD;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 2px;
+  border-radius: 35px;
 }
 
 .profilebox > h3 {
@@ -129,18 +149,20 @@ main {
 
 .profilebox > ul {
   padding-left: 25px;
-  margin-top: 5%;
   height: 90%;
   font-size: 1em;
   line-height: 1.5;
   list-style-type: none;
   font-weight: bold;
   padding: 0;
-  border-top: solid white;
+  border-radius: 60px;
 }
 
-.profilebox > ul > li:nth-child(odd) {
-  background-color: #EBCCAB;
+.profilebox > ul > li {
+  border-top: solid #5680e9;
+}
+
+ .profilebox > ul > li:nth-child(odd) {
 }
 
 .profilebox > h3 {
@@ -162,34 +184,42 @@ main {
 }
 
 .langbox {
-  border-top: solid white;
+  border-top: solid #5680e9;
 }
 
 .langboxleft {
-  border-right: solid white;
+  border-right: solid #5680e9;
+}
+
+#projects {
+  margin-top: 5%;
+  justify-items: center;
+  text-align: center;
+  height: 30%;
+}
+
+#projects > h1 {
+  font-size: 2em;
 }
 
 #projectgrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  height: 30%;
   max-width: 100%;
-  margin-top: 4%;
+  margin-top: 2%;
   margin-bottom:0%;
   padding-bottom: 0%;
   font-size: 1em;
 }
 
 .projectbox {
-  background-color: #D2B48C;
+  background-color: #e98074;
   max-width: 400px;
-  max-height: 90%;
+  height: 90%;
   margin: 10px;
-  padding: 2%;
+  padding: 5%;
   width: 80%;
-  border: solid #FAF1DD;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 2px;
+  border-radius: 35px;
 }
 
 .projectbox > img {
