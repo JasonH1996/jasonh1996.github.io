@@ -1,5 +1,4 @@
-# PersonalPortfolio
+# Portfolio Website
 
-Hey there!
-
-Welcome to my Github; I hope that you like some of what you find here.
+This website was written entirely from scratch.
+The website is uncluttered and simplistic, yet reactive; grab the corner of the window and resize it a bit and you'll see what I mean.
